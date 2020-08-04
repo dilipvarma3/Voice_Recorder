@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-voicerecorder-dev-144054-authRole",
+            "UnauthRoleArn": "arn:aws:iam::943289198893:role/amplify-voicerecorder-dev-144054-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::943289198893:role/amplify-voicerecorder-dev-144054-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-voicerecorder-dev-144054-deployment",
+            "UnauthRoleName": "amplify-voicerecorder-dev-144054-unauthRole",
+            "StackName": "amplify-voicerecorder-dev-144054",
+            "StackId": "arn:aws:cloudformation:us-east-1:943289198893:stack/amplify-voicerecorder-dev-144054/8de910b0-c601-11ea-8614-1271b8f35690",
+            "AmplifyAppId": "do4ys0qv1ck5g"
+        },
+        "categories": {
+            "auth": {
+                "voicerecordere51ec285": {}
+            }
+        }
+    }
+}

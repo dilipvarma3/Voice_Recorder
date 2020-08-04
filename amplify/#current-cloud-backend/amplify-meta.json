@@ -1,0 +1,54 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "amplify-voicerecorder-dev-144054-authRole",
+			"UnauthRoleArn": "arn:aws:iam::943289198893:role/amplify-voicerecorder-dev-144054-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::943289198893:role/amplify-voicerecorder-dev-144054-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "amplify-voicerecorder-dev-144054-deployment",
+			"UnauthRoleName": "amplify-voicerecorder-dev-144054-unauthRole",
+			"StackName": "amplify-voicerecorder-dev-144054",
+			"StackId": "arn:aws:cloudformation:us-east-1:943289198893:stack/amplify-voicerecorder-dev-144054/8de910b0-c601-11ea-8614-1271b8f35690",
+			"AmplifyAppId": "do4ys0qv1ck5g"
+		}
+	},
+	"auth": {
+		"voicerecordere51ec285": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false,
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-voicerecorder-dev-144054-deployment/amplify-cfn-templates/auth/voicerecordere51ec285-cloudformation-template.yml",
+				"logicalId": "authvoicerecordere51ec285"
+			},
+			"lastPushTimeStamp": "2020-07-14T19:13:01.014Z",
+			"output": {
+				"AppClientSecret": "1adnfascvgg9keknoeojfrvpn1l624m8mds8u01m38f87hpu2ltb",
+				"UserPoolId": "us-east-1_qevDYo2A9",
+				"AppClientIDWeb": "13simqk92hrhjib83mpuckl2rk",
+				"AppClientID": "1cvlsc1ovj5jspa0m72sdjgj8v",
+				"IdentityPoolId": "us-east-1:b3551897-ec99-40f3-91ec-ce6f86276978",
+				"IdentityPoolName": "voicerecordere51ec285_identitypool_e51ec285__dev",
+				"UserPoolName": "voicerecordere51ec285_userpool_e51ec285"
+			},
+			"lastPushDirHash": "rnLq6FJTe3jF4rjwokrsxwMljuE="
+		}
+	},
+	"storage": {
+		"storage": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-voicerecorder-dev-144054-deployment/amplify-cfn-templates/storage/s3-cloudformation-template.json",
+				"logicalId": "storagestorage"
+			},
+			"lastPushTimeStamp": "2020-07-14T19:13:01.017Z",
+			"output": {
+				"BucketName": "voicerecorder697208164bce4c0c99fd0ee85367bcef144054-dev",
+				"Region": "us-east-1"
+			},
+			"lastPushDirHash": "PWgbHyC2sHJzfHFCJ9QOrF5Lpzw="
+		}
+	}
+}
